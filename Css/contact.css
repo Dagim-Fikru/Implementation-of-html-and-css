@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-image: url(../images/bactes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  background: #c0c0c0;
+  border-radius: 3vw;
+  flex-wrap: nowrap;
+}
+a:hover {
+  text-decoration: underline;
+  color: #0937de;
+  background-color: black;
+}
+/* #active {
+  background-color: black;
+  transition: 0.5s;
+} */
+
+ul li {
+  font-weight: bolder;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+.link {
+  display: block;
+  border: 0.2vw solid;
+  border-radius: 1vw;
+  padding: 0.5vw 2vw;
+  margin: 0.6vw;
+  text-decoration: none;
+}
+
+.Logo {
+  position: absolute;
+  left: 3vw;
+  top: 0.5vw;
+  font-family: fantasy;
+  font-size: 2.5vw;
+  text-decoration: none;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* border: 1px solid; */
+  width: 100%;
+  background: #c0c0c0;
+  /* background-size: 3em; */
+  /* border-radius: 2em; */
+  text-align: center;
+  font-size: 2.5vw;
+}
+#footer {
+  padding: 0 0 0 55vw;
+}
+#title {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: rgb(41, 30, 1);
+  font-weight: 200vw;
+  font-size: 1.5vw;
+  text-decoration-line: underline;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+  padding-top: 1vw;
+}
+input[type="text"] {
+  width: 40vw;
+  padding: 0.4vw 0.2vw;
+  margin: 0.2vw 0;
+  border: 0.2vw solid rgb(94, 22, 22);
+  border-radius: 1.5vw;
+  background-color: rgb(166, 212, 243);
+}
+textarea {
+  border: 0.2vw solid rgb(94, 22, 22);
+  background-color: rgb(166, 212, 243);
+  padding: 0.4vw 0.2vw;
+  border-radius: 1.5vw;
+  width: 40vw;
+  resize: none;
+}
+input[type="submit"] {
+  background-color: rgb(175, 206, 188);
+  cursor: pointer;
+  font-weight: bolder;
+  color: rgb(73, 48, 48);
+  padding: 0.2vw 0.5vw;
+  margin: 0.2vw 0.2vw;
+  width: 4vw;
+}
+label {
+  font-weight: bold;
+  font-size: 1.5vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
